@@ -11,7 +11,12 @@ Process: description of what function does
 Output: return value and description
 """
 
-def main():
-    # code here
 
-main()    
+
+
+from graphics import *
+def main():
+    win = GraphWin("Title", 600, 300)
+
+
+main()
